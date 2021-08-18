@@ -14,6 +14,63 @@
 
 <body>
 
+    <section id="section1">
+        <form action="">
+          <div id="berechnungsjahr-container">
+            <label id="label-berechnungsjahr" for="cars">Berechnungsjahr:</label>
+
+            <select name="jahr" id="berechnungsjahr">
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+              </select>
+              <img
+                id="ministerium"
+                src="assets/images/224px-BMF_Logo.svg.png"
+                alt=""
+              />
+              Einkommensteuer-Berechnung
+            </div>
+            
+            <div id="label-wrapper">
+                <input
+                  type="radio"
+                  id="verheiratet"
+                  value="verheiratet"
+                  name="verhältnisse"
+                  checked
+                />
+                <label id="label-verheiratet">verheiratet / verpartnert</label>
+                
+                <br />
+
+                <input
+                  type="radio"
+                  id="alleinstehend"
+                  value="alleinstehend"
+                  name="verhältnisse"
+                />
+
+                <label id="label-alleinstehend">alleinstehend</label>
+                
+              </div>
+
+              <h4 id="zvE-headline">zu versteuerndes Einkommen (zvE):</h4>
+
+              <input id="zvE1" type="text" placeholder="1. Person" />
+              <label id="person1" for="zvE2">€</label>
+              <input id="zvE2" type="text" placeholder="2. Person" />
+              <label id="person2" for="zvE2">€</label>
+      
+              <input
+                id="btn"
+                type="button"
+                value="Berechnen"
+              />
+            </form>
+    </section>
+
+
 
 
 
